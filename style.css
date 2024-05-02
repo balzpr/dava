@@ -1,0 +1,72 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #282b30;
+}
+
+.navbar-discord {
+    background-color: #424549;
+}
+
+.nav-item .nav-link {
+    color: #7289da;
+}
+
+.text-primary {
+    color: #7289da !important;
+}
+
+.nav-item .nav-link.active {
+    color: #fff;
+}
+
+.instagram {
+    color: #E1306C;
+}
+
+.whatsapp {
+    color: #30e148;
+}
+
+.fab {
+    font-size: 24px;
+    margin-right: 25px;
+}
+
+.brand-name {
+    background: linear-gradient(to right,
+                violet, indigo, blue, green, yellow, orange, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: rainbow-animation 1s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.card {
+    background-color: #424549;
+    color: #7289da;
+}
+
+.img-thumbnail {
+    background-color: #7289da;
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.bg-primary {
+    background-color: #7289da !important;
+    color: #fff !important;
+}
+
+.bg-primary a{
+    color: #fff;
+}
